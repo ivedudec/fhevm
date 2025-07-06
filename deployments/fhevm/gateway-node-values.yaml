@@ -1,3 +1,5 @@
+Query:
+```yaml
 image:
   name: ghcr.io/foundry-rs/foundry
   tag: stable
@@ -16,8 +18,9 @@ storage:
 
 resources:
   requests:
-    cpu: 100m
-    memory: 256Mi
+    cpu: "100m"
+    memory: "256Mi"
+  
   limits:
-    cpu: 500m
-    memory: 512Mi
+    cpu: "500m"
+    memory: "512Mi"
